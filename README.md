@@ -27,22 +27,21 @@ databasetype = El sistema manejador de base de datos. Por ejemplo mysql, postgre
 
 ip = La direccion ip de la base de datos. Por ejemplo localhost, 127.0.0.1, 35.203.35.232
 
-portdabase= Puerto sobre el cual esta expuesta la base de datos.
+portdabase = Puerto sobre el cual esta expuesta la base de datos.
 
-user= Usuario de la base de datos
+user = Usuario de la base de datos
 
-password= Contraseña del usuario.
+password = Contraseña del usuario.
 
+databasename = Nombre de la base de datos colocada en el item 1 del paso 1.
 
-
-
+name = Nombre del sistema.
 
 por ejemplo
 
-mvn clean install  -Ddriver=com.mysql.jdbc.Driver -Ddatabasetype=mysql -Dip=35.203.35.232 -Dportdabase=3306 -Duser=root -Dpassword=123454 -Ddatabasename=graduados -Dname=abcd 
+mvn clean install  -Ddriver=com.mysql.jdbc.Driver -Ddatabasetype=mysql -Dip=35.203.35.232 -Dportdabase=3306 -Duser=root -Dpassword=123110 -Ddatabasename=graduados -Dname=ufps-graduados 
 
 
 
-3. Copiar el .war dentro de la carpeta webapps del tomcat.
-
+3. Copiar el .war generado dentro de la carpeta target dentro de la carpeta webapps del tomcat en el server.
 
