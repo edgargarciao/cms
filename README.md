@@ -1,5 +1,5 @@
-# GRADUADOS
-Sistema de información para graduados de la UFPS.
+# CMS
+Sistema de información para gestionar sitios web de la UFPS.
 
 Pre-requisitos:
 
