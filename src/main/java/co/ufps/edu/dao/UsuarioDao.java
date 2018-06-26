@@ -32,14 +32,14 @@ public class UsuarioDao {
     javaMailSender.setHost("smtp.gmail.com");
     javaMailSender.setPort(587);
     javaMailSender.setProtocol("smtp");
-    javaMailSender.setUsername("edgar.yesid.garcia.ortiz@gmail.com");
-    javaMailSender.setPassword("94100209440");
+    javaMailSender.setUsername("ufpscms12@gmail.com");
+    javaMailSender.setPassword("Ufps1234");
     Properties props = new Properties();
     props.put("mail.smtp.starttls.enable", "starttls");
     props.put("mail.smtp.starttls.enable", "true");
     props.put("mail.smtp.host", "smtp.gmail.com");
-    props.put("mail.smtp.user", "edgar.yesid.garcia.ortiz@gmail.com");
-    props.put("mail.smtp.password", "94100209440");
+    props.put("mail.smtp.user", "ufpscms12@gmail.com");
+    props.put("mail.smtp.password", "Ufps1234");
     props.put("mail.smtp.port", "587");
     props.put("mail.smtp.auth", "true");
     props.put("mail.smtp.ssl.trust", "smtp.gmail.com");
@@ -74,7 +74,7 @@ public class UsuarioDao {
 
       SimpleMailMessage smm = new SimpleMailMessage();
 
-      smm.setFrom("edgar.yesid.garcia.ortiz@gmail.com");
+      smm.setFrom("ufpscms12@gmail.com");
       smm.setTo(correo);
       smm.setSubject(subject);
       smm.setText(body);
